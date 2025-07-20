@@ -1,0 +1,56 @@
+.carousel-item img {
+     width: 95%;
+     height: 600px !important;
+     border: 2px solid #ddd;
+     border-radius: 30px;
+        object-fit: cover;
+        margin-left: 45px;
+
+ }
+ .iconPic{
+    background-image: url('../images/bg-ima.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+ }
+
+ .btn-products{
+    background-color: #f83e3e;
+    font-weight: 500;
+    color: white;
+    border: 1px solid #f83e3e;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 130px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+ }
+  .btn-product{
+    background-color: transparent;
+    /* font-weight: 500; */
+    color: #f83e3e;
+    border: 1px solid #f83e3e;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 130px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+ }
+ .btn-product:hover{
+    background-color: #f83e3e;
+    color: white;
+    border: 1px solid #f83e3e;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 130px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+ }
+body{
+    background-image: url('../images/bg-ima.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
